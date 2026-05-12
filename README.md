@@ -1,0 +1,3 @@
+# CloseFlow
+
+Initial repository bootstrap.
