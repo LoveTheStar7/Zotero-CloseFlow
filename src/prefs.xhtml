@@ -1,0 +1,17 @@
+<vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+      xmlns:html="http://www.w3.org/1999/xhtml"
+      flex="1">
+  <groupbox>
+    <caption label="CloseFlow"/>
+    <vbox>
+      <label value="关闭 Zotero 主窗口时"/>
+      <menulist preference="extensions.zoteroCloseToTray.rememberCloseAction">
+        <menupopup>
+          <menuitem label="每次询问" value="ask"/>
+          <menuitem label="默认最小化到系统托盘" value="tray"/>
+          <menuitem label="默认关闭 Zotero" value="close"/>
+        </menupopup>
+      </menulist>
+    </vbox>
+  </groupbox>
+</vbox>

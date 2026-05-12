@@ -1,0 +1,9 @@
+{
+  "name": "zotero-close-to-tray",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node tests/plugin-structure.test.js",
+    "build": "powershell -NoProfile -ExecutionPolicy Bypass -File build.ps1"
+  }
+}

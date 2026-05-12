@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "CloseFlow",
+  "version": "1.0.0",
+  "description": "Control whether Zotero closes or flows into the Windows system tray.",
+  "icons": {
+    "48": "icon48.png",
+    "96": "icon96.png"
+  },
+  "homepage_url": "https://github.com/LoveTheStar7/Zotero-CloseFlow",
+  "applications": {
+    "zotero": {
+      "id": "zotero-close-to-tray@example.com",
+      "update_url": "https://raw.githubusercontent.com/LoveTheStar7/Zotero-CloseFlow/main/update.json",
+      "strict_min_version": "6.999",
+      "strict_max_version": "9.0.*"
+    }
+  }
+}
